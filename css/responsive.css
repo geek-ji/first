@@ -1,0 +1,385 @@
+/* media query in navigation bar  */
+
+@media screen and (max-width: 1400px) and (min-width:1364px) {
+
+
+    #navbar div {
+        margin-top: 35px;
+        margin-left: 550px;
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+    }
+
+    #navbar::before {
+        content: "";
+        background-color: rgb(48, 46, 46);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 11%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+    }
+}
+
+@media screen and (max-width: 1364px) and (min-width:1264px) {
+
+    #navbar div {
+        margin-top: 35px;
+        margin-left: 450px;
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+    }
+
+
+}
+
+@media screen and (max-width: 1264px) and (min-width:1172px) {
+
+    #navbar div {
+        margin-top: 35px;
+        margin-left: 350px;
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1174px) and (min-width:1072px) {
+
+    #navbar div {
+        margin-top: 35px;
+        margin-left: 250px;
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+    }
+
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 40%;
+        left: 0px;
+        height: 80%;
+        width: 100%;
+        z-index: -1;
+    }
+
+
+}
+
+@media screen and (max-width: 1074px) and (min-width:972px) {
+
+    #navbar div {
+        margin-top: 35px;
+        margin-left: 150px;
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+    }
+
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 40%;
+        left: 0px;
+        height: 80%;
+        width: 100%;
+        z-index: -1;
+    }
+
+}
+
+@media screen and (max-width: 972px) and (min-width:872px) {
+
+    #navbar div {
+        margin-top: 35px;
+        margin-left: 50px;
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+    }
+
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 40%;
+        left: 0px;
+        height: 80%;
+        width: 100%;
+        z-index: -1;
+    }
+
+}
+
+
+
+@media screen and (max-width:874px) and (min-width:400px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #navbar div {
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        margin-left: 35px;
+        margin-top: 6px;
+    }
+
+    #navbar img {
+        height: 50px;
+        width: 50px;
+        filter: invert(40);
+
+    }
+
+    #navbar .navbar1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-left: -18px;
+
+    }
+
+    #navbar::before {
+        content: "";
+        background-color: rgb(48, 46, 46);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 26%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+
+    }
+
+    #section::before {
+        content: "";
+        background-image: linear-gradient(to right top, #e5dee2, #e2d6e1, #dacfe4, #cdcae7, #bac6ea, #acbfec, #9db8ee, #8bb2f0, #89a4f1, #8f94ef, #9c81e8, #ab6cdc);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 60%;
+        width: 100%;
+        z-index: -2;
+
+    }
+
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 55%;
+        left: 0px;
+        height: 90%;
+        width: 100%;
+        z-index: -1;
+    }
+
+}
+
+@media screen and (max-width:590px) and (min-width:400px) {
+
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 60%;
+        left: 0px;
+        height: 110%;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:300px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #navbar div {
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        margin-left: 35px;
+        margin-top: 6px;
+
+    }
+
+    #navbar div input {
+        height: 20px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 7px;
+        padding-left: 10px;
+    }
+
+    #navbar img {
+        height: 50px;
+        width: 50px;
+        filter: invert(40);
+
+    }
+
+    #navbar .navbar1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-left: -18px;
+    }
+
+    #navbar .navbar1 li a {
+        margin: 0px 10px;
+        text-decoration: none;
+        color: rgb(194, 185, 185);
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 13px;
+    }
+
+    #navbar::before {
+        content: "";
+        background-color: rgb(48, 46, 46);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 26%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+    }
+    
+    #section::before {
+        content: "";
+        background-image: linear-gradient(to right top, #e5dee2, #e2d6e1, #dacfe4, #cdcae7, #bac6ea, #acbfec, #9db8ee, #8bb2f0, #89a4f1, #8f94ef, #9c81e8, #ab6cdc);
+        top: 0px;
+        left: 0px;
+        height: 70%;
+        width: 100%;
+        z-index: -2;
+        
+    }
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 65%;
+        left: 0px;
+        height: 220%;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:350px) and (min-width:200px) {
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 65%;
+        left: 0px;
+        height: 220%;
+        width: 100%;
+        z-index: -1;
+    }
+    
+}
+
+@media screen and (max-width:300px) and (min-width:200px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #navbar div {
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        margin-left: 35px;
+        margin-top: 6px;
+        font-size: 12px;
+
+    }
+
+    #navbar div input {
+        height: 18px;
+        width: 140px;
+        border: 1px solid black;
+        border-radius: 7px;
+
+    }
+
+    #navbar img {
+        height: 50px;
+        width: 50px;
+        filter: invert(40);
+
+    }
+
+    #navbar .navbar1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-left: -18px;
+    }
+
+    #navbar .navbar1 li a {
+        margin: 0px 5px;
+        text-decoration: none;
+        color: rgb(194, 185, 185);
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 12px;
+    }
+
+    #navbar::before {
+        content: "";
+        background-color: rgb(48, 46, 46);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 26%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+
+    }
+
+    #section::before {
+        content: "";
+        background-image: linear-gradient(to right top, #e5dee2, #e2d6e1, #dacfe4, #cdcae7, #bac6ea, #acbfec, #9db8ee, #8bb2f0, #89a4f1, #8f94ef, #9c81e8, #ab6cdc);
+        top: 0px;
+        left: 0px;
+        height: 65%;
+        width: 100%;
+        z-index: -2;
+
+    }
+
+    #section h2 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 100px;
+        text-shadow: 5px 5px 7px;
+    }
+
+    #layout ::before {
+        content: " ";
+        background-image: linear-gradient(to right top, #cfd6e0, #d2dce5, #d6e2e9, #dae7ec, #dfedf0);
+        position: absolute;
+        top: 65%;
+        left: 0px;
+        height: 220%;
+        width: 100%;
+        z-index: -1;
+    }
+   
+}
